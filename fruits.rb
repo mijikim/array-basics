@@ -17,48 +17,7 @@ fruits.each do |fruit| p fruit.upcase end
 
 fruits.each do |fruit| p fruit if fruit.include?("g") end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+fruits.select { |fruit| fruit.include?("g") }
 
 
 # puts fruits.length

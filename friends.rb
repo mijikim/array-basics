@@ -16,5 +16,10 @@ while true
 
 end
 
-puts friends.sort
+p friends.sort
 
+p friends.reverse
+
+p friends.sort.reverse
+
+p friends.map {|f| [f, f.length]}
