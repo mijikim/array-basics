@@ -4,6 +4,41 @@ fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
 puts fruits.length
 
 #pring index of bananas
+puts fruits.index("bananas")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
