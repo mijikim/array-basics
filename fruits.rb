@@ -15,6 +15,8 @@ fruits.each do |fruit| p "#{fruit} = #{fruit.length}" end
 
 fruits.each do |fruit| p fruit.upcase end
 
+fruits.each do |fruit| p fruit if fruit.include?("g") end
+
 
 
 
