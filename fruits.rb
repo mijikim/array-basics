@@ -6,6 +6,10 @@ puts fruits.length
 #pring index of bananas
 puts fruits.index("bananas")
 
+#insert new fruit between apples&oranges and print the new array
+p fruits.insert(1, "rasberries")
+
+
 
 
 
