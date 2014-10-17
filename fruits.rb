@@ -7,7 +7,13 @@ puts fruits.length
 puts fruits.index("bananas")
 
 #insert new fruit between apples&oranges and print the new array
-p fruits.insert(1, "rasberries")
+p new_array = fruits.dup
+p new_array.insert(1, "rasberries")
+p fruits
+
+fruits.each do |fruit| p "#{fruit} = #{fruit.length}" end
+
+
 
 
 
